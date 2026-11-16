@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": ["id", "postId", "name", "email", "body"],
+  "properties": {
+    "id": { "type": "number" },
+    "postId": { "type": "number" },
+    "name": { "type": "string" },
+    "email": { "type": "string" },
+    "body": { "type": "string" }
+  }
+}
